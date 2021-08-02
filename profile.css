@@ -1,15 +1,15 @@
 
 .profilecontainer{
     position: relative;
-    width: 1920;
-    height:1080;
+    width: 1440;
+    height:1024;
     background: #EEEEEE;
 }
 .profile{
     position: absolute;
-    width: 761px;
-    height: 914px;
-    left: 789px;
+    width: 600px;
+    height: 700px;
+    left: 500px;
     top: 136px;
     background: #C4C4C4;
 }
@@ -17,7 +17,7 @@
     position: absolute;
     width: 384px;
     height: 384px;
-    left: 190px;
+    left: 250px;
     top: 8px;
 }
 .editpen{
