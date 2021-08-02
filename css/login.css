@@ -21,8 +21,35 @@ body{
     
  }
 
+ .container{
+     display: flex;
+     align-items: center;
+     margin: auto;
+     width: 30%;
+    
+     
+ }
+
+ .sign{
+      background-color: red;
+     border-radius: 10px;
+     padding: 10px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     text-align: center;
+     color: white;
+     font-size: 16px;
+     justify-content: end;
+     margin-left: 200px;
+
+     
+
+ }
+
  .top{
-     margin-right: 10%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
  }
 
  
