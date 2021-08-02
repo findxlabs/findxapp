@@ -30,3 +30,8 @@
     padding: 20px;
     text-align: center;
   } 
+  .price .red{
+    background-color:red;
+    font-size: 20px;
+  }
+  a{text-decoration: none;}
