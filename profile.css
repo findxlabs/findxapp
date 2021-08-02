@@ -1,1 +1,29 @@
 
+.profilecontainer{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #EEEEEE;
+}
+.profile{
+    position: absolute;
+    width: 761px;
+    height: 914px;
+    left: 789px;
+    top: 136px;
+    background: #C4C4C4;
+}
+.circleaccount{
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    left: 190px;
+    top: 8px;
+}
+.editpen{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 712px;
+    top: 10px;
+}
