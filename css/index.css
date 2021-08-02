@@ -1,0 +1,37 @@
+*{
+    font-family:courier,arial,helvetica;
+}
+body {
+    margin: 0;
+    background-color: #EEEEEE;
+  }
+.sideNavBar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #808080;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sideNavBar a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    background-color: #c4c4c4;
+    margin-bottom: 10px;
+    padding: 16px;
+    
+  }
+
+  .sideNavBar a.logo {
+    background-color: red;
+    color: black;
+  }
+  
+  a:hover {
+    background-color: red;
+    color: white;
+}
