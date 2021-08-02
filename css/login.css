@@ -2,6 +2,27 @@ body{
     background-color:#eeeeee;
 }
 
- .container{
+ #header{
      text-align: center;
  }
+
+ .button{
+     background-color: red;
+     border-radius: 10px;
+     padding: 10px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     text-align: center;
+     color: white;
+     font-size: 16px;
+     justify-content: space-between;
+     margin-right: 10%;
+    
+    
+ }
+
+ .top{
+     margin-right: 10%;
+ }
+
+ 
