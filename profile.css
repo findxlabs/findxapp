@@ -10,7 +10,7 @@
     width: 600px;
     height: 700px;
     left: 500px;
-    top: 136px;
+    top: 50px;
     background: #C4C4C4;
 }
 .circleaccount{
@@ -72,10 +72,10 @@ form{
     top: -20px;
     transform: translateY(0);
     transition: transform 200ms;
-    width: 76px;
+    width: 100px;
   }
   .cutshort{
-        width: 85px;
+        width: 120px;
     }
  .input:focus ~ .cut,
 .input:not(:placeholder-shown) ~ .cut {
@@ -129,5 +129,9 @@ background-color: green;
 .submit:active {
   background-color: #06b;
 }
-
+#buttons{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
       
