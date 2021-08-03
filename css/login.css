@@ -1,5 +1,6 @@
 body{
     background-color:#eeeeee;
+    box-sizing: border-box;
 }
 
  #header{
@@ -52,4 +53,7 @@ body{
      justify-content: space-between;
  }
 
- 
+ .container{
+     padding: 16px;
+     margin-left: 450px;
+ }
