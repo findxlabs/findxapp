@@ -1,0 +1,37 @@
+.pricingcontainer{
+        position: relative;
+        width: 1440;
+        height:1024;
+        background: #EEEEEE;
+}
+.prices{
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  } 
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  } 
+  .price .red{
+    background-color:red;
+    font-size: 20px;
+  }
+  a{text-decoration: none;}
