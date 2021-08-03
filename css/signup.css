@@ -6,3 +6,30 @@ body{
 #sign{
     text-align: center;
 }
+
+.name{
+     
+    margin-left: 460px;
+    display: flex;
+   
+}
+
+
+input[type=text],input[type=LastName] {
+    width: 25%;
+    padding: 15px;
+    border: none;
+    background: white;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+
+input[type=text],input[type=FirstName] {
+    width: 25%;
+    padding: 15px;
+    border: none;
+    background: white;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    margin-left: 2%;
+}
