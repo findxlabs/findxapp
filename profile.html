@@ -3,12 +3,28 @@
     <head>
         <title>Profile</title>
         <link rel="stylesheet" href="profile.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="assets">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        
     </head>
     <body>
         <div class = "profilecontainer">
-            <div></div>
+            <div class="sideNavBar">
+                <a class="logo" href="#Logo">FindX</a>
+                <a href="index.html"><img src="assets/home.svg" alt="home icon"> Home</a>
+                <a href="profile.html"><img src="assets/icons8-account-100.png" alt="home profileicon"> Profile</a>
+                <a href="login.html"><img src="assets/login.svg" alt="login icon"> Login</a>
+                <a href="pricing.html"><img src="assets/pricing.svg" alt="pricing icon"> Pricing</a>
+                <a href="contact.html"><img src="assets/contact.svg" alt="contact icon"> Contact</a>
+                <div class="icons">
+                    <img id="twitter" src="assets/twitter.svg" alt="twitter icon">
+                    <img id="ig" src="assets/instagram.svg" alt="instagram icon">
+                    <img id="fb" src="assets/facebook.svg" alt="facebook icon">    
+                </div>
+           </div>
             <div class = "profile">
-                <div class = "circleaccount"><img src = "assets/icons8-account-100.png" alt = "account icon"></div>
+                <div class = "circleaccount"><img src = "assets/icons8-account-100.png" alt="accounticon"></div>
                 <div class = "form">
                     <form>
                         <div class = "inputcontainer one">
@@ -31,8 +47,10 @@
                             <div class = "cut cutshort"></div>
                             <label for = "password" class = "placeholder">Password</label>
                         </div>
+                        <div id = buttons>
                         <button type = "text" class = "submit" id = "two" >Cancel</button>
                         <button type = "text" class = "submit" id = "one">Save</button>
+                        </div>
                     </form>
                 </div>
             </div>
