@@ -1,0 +1,15 @@
+*{
+    font-family:courier,arial,helvetica;
+}
+
+h1 {
+    border: solid red;
+    background-color:red;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.homeIcon {
+    float: right;
+}

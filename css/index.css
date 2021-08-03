@@ -4,26 +4,36 @@
 body {
     margin: 0;
     background-color: #EEEEEE;
+    font-size: 22px;
   }
+  .logo {
+    text-align: center;
+  }
+
 .sideNavBar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 20%;
     background-color: #808080;
     position: fixed;
     height: 100%;
-    overflow: auto;
+  
   }
   
   .sideNavBar a {
     text-decoration: none;
+    font-size: 30px;
     display: block;
     color: black;
-    text-align: center;
     background-color: #c4c4c4;
     margin-bottom: 10px;
     padding: 16px;
     
+  }
+
+  .sideNavBar img {
+    height: 20px;
+    width: 20px;
   }
 
   .sideNavBar a.logo {
@@ -44,8 +54,9 @@ div.homeBg {
 
   h1 {
     text-align: center;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
     padding: 0;
 
 }
@@ -54,4 +65,22 @@ h2 {
     text-align: center;
     margin: 10px;
     color: red;
+}
+
+.homeBg {
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.homeBg p {
+  align-items: center;
+  justify-content: center;
+  }
+
+
+.icons img{
+  padding-top: 75%;
+  padding-left: 8%;
+  height: 40px;
+  width: 50px;
 }
