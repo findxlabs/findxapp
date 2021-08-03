@@ -18,6 +18,8 @@ body{
      font-size: 16px;
      justify-content: space-between;
      margin-right: 10%;
+     border-color: red;
+     margin-left: 18px;
     
     
  }
@@ -41,7 +43,8 @@ body{
      color: black;
      font-size: 16px;
      justify-content: end;
-     margin-left: 200px;
+     margin-left: 160px;
+     border-color: white;
 
      
 
@@ -54,6 +57,45 @@ body{
  }
 
  .container{
-     padding: 16px;
-     margin-left: 450px;
+     
+     margin-left: 460px;
+     display: flex;
+     flex-direction: column;
+ }
+ input[type=text],input[type=password] {
+     width: 50%;
+     padding: 15px;
+     border: none;
+     background: white;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+ }
+
+ input[type=text]:focus, input[type=password]:focus {
+     background-color: lightgrey;
+     outline: none;
+ }
+
+ .Login{
+     background-color: red;
+     color: white;
+     padding: 16px 20px;
+     cursor: pointer;
+     width: 50%;
+     opacity: 0.9;
+     border: none;
+     border-radius: 10px;
+ }
+ .Login:hover {
+     opacity: 1;
+     color: pink;
+ }
+
+ .signup{
+    
+     text-align: center;
+ }
+
+ a{
+     color: limegreen;
  }
