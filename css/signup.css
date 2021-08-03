@@ -7,29 +7,54 @@ body{
     text-align: center;
 }
 
-.name{
+.container{
      
     margin-left: 460px;
     display: flex;
-   
+    flex-direction: column;
+    
 }
 
 
-input[type=text],input[type=LastName] {
-    width: 25%;
+input[type=text],input[type=password] {
+    width: 50%;
     padding: 15px;
     border: none;
     background: white;
     margin: 5px 0 22px 0;
     display: inline-block;
+    border-radius: 10px;
 }
 
-input[type=text],input[type=FirstName] {
-    width: 25%;
-    padding: 15px;
+.Signup{
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
     border: none;
-    background: white;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    margin-left: 2%;
+    border-radius: 10px;
+}
+.Signup:hover {
+    opacity: 1;
+    color: pink;
+}
+
+
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: lightgrey;
+    outline: none;
+}
+
+
+
+
+a{
+    color: limegreen;
+}
+
+#param{
+    margin-left: 20px;
 }
