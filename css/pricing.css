@@ -42,6 +42,9 @@ body {
   background-color: red;
   color: black;
 }
+.sideNavBar a.pricestyle{
+  background-color: red;
+}
 
 a:hover {
   background-color: red;
