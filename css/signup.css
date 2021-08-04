@@ -1,14 +1,27 @@
+
+
+
+
 body{
     background-color:#eeeeee;
     box-sizing: border-box;
+    background-image: url(image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+    
 }
+
 
 #sign{
     text-align: center;
+    color: white;
 }
 
 .container{
-     
+
+   
     margin-left: 460px;
     display: flex;
     flex-direction: column;
@@ -52,9 +65,14 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 a{
-    color: limegreen;
+    color:lightgreen;
+    font-weight: 900;
 }
 
 #param{
     margin-left: 20px;
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> 32a1bec8b593fe67e54d2a3c615ba54956fe897a
 }
