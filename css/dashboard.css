@@ -34,7 +34,7 @@ ul li a{
     background-color: green;
     padding: 6px 12px;
     font-weight: bold;
-    margin: 8px 6px;
+    margin: 8px 30px;
 }
 .cancel{
     background-color: red;
@@ -49,4 +49,10 @@ h1{
     position: absolute;
     margin-left: 300px;
     overflow: scroll;
+}
+#home{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left:1150px;
 }
