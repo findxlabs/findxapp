@@ -4,6 +4,10 @@
         height:1024;
         background: #EEEEEE;
 }
+
+#prices{
+  margin-left: 280px;
+}
 .prices{
     float: left;
     width: 33.3%;
