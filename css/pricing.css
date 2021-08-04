@@ -1,3 +1,7 @@
+body {
+  background-color:white;
+}
+
 .pricingcontainer{
         position: relative;
         width: 1440;
@@ -44,7 +48,22 @@ a:hover {
   color: white;
 }
 
+h1 {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 50px;
+  background-color:white;
+  padding: 20px;
+  padding: 0;
 
+}
+
+.icons img{
+  padding-top: 60%;
+  padding-left: 8%;
+  height: 40px;
+  width: 50px;
+}
 
 #prices{
   margin-left: 280px;
