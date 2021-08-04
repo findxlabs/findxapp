@@ -1,12 +1,14 @@
 body {
   background-color:white;
+  background-image: url(image123.jpg);
+  background-size: cover;
 }
 
 .pricingcontainer{
         position: relative;
         width: 1440;
         height:1024;
-        background: #EEEEEE;
+        
 }
 
 .logo {
@@ -55,7 +57,7 @@ h1 {
   text-align: center;
   margin: 10px;
   margin-bottom: 50px;
-  background-color:white;
+ color:white;
   padding: 20px;
   padding: 0;
 
@@ -96,6 +98,7 @@ h1 {
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
+    color: white;
   } 
   .price .red{
     background-color:red;
