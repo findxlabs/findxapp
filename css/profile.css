@@ -191,6 +191,7 @@ form{
 }
 #one{
 background-color: green;
+margin-right: 10px;
 }
  #two{
     background-color: red;
@@ -201,5 +202,6 @@ background-color: green;
 #buttons{
   display: flex;
   flex-direction: row-reverse;
+  margin: 10px;
 }
       
