@@ -69,7 +69,10 @@ body{
      background: white;
      margin: 5px 0 22px 0;
      display: inline-block;
+<<<<<<< HEAD
      border-radius: 10px;
+=======
+>>>>>>> 959cd48902dda8993090c9c48f4d524fa3e29daa
  }
 
  input[type=text]:focus, input[type=password]:focus {
