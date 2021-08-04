@@ -1,11 +1,13 @@
 *{
     font-family:courier,arial,helvetica;
 }
+
 body {
     margin: 0;
     background-color: #EEEEEE;
     font-size: 22px;
   }
+
   .logo {
     text-align: center;
   }
@@ -17,7 +19,6 @@ body {
     background-color: #808080;
     position: fixed;
     height: 100%;
-   
   }
   
   .sideNavBar a {
