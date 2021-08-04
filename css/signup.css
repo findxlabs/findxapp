@@ -1,8 +1,78 @@
+
+
+
+
 body{
     background-color:#eeeeee;
     box-sizing: border-box;
+    background-image: url(image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+    
 }
+
 
 #sign{
     text-align: center;
+    color: white;
+}
+
+.container{
+
+   
+    margin-left: 460px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+input[type=text],input[type=password] {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background: white;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.Signup{
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+}
+.Signup:hover {
+    opacity: 1;
+    color: pink;
+}
+
+
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: lightgrey;
+    outline: none;
+}
+
+
+
+
+a{
+    color:lightgreen;
+    font-weight: 900;
+}
+
+#param{
+    margin-left: 20px;
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> 32a1bec8b593fe67e54d2a3c615ba54956fe897a
 }

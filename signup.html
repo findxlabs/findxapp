@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup</title>
-    <link rel="stylesheet" href="./css/signup.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    
     <h1 id="sign">Signup</h1>
-</body>
+    <p id="sign">Create your account.Its free and only takes a minute.</p>
+    <div class="wrap">
+    <form action="signup form">
+       
+      <div class="container">
+        <label for="UserName"></label>
+        <input
+          type="text"
+          placeholder="Username"
+          name="UserName"
+          id="UserName"
+          required
+        />
+
+        <label for="Email"></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="Email"
+          id="Email"
+          required
+        />
+
+        <label for="password"></label>
+        <input
+          type="text"
+          placeholder="Enter Password"
+          name="Password"
+          id="password"
+          required
+        />
+
+        <label for="password"></label>
+        <input
+          type="text"
+          placeholder="Confirm password"
+          name="Password"
+          id="password"
+          required
+        />
+
+        <p id="param">
+          <span><i class="far fa-square"></i></span> I accept the
+          <a href="#">terms of use </a> & <a href="#"> privacy policy</a>
+        </p>
+
+        <button type="submit" class="Signup">signup</button>
+
+        <p id="param">Already have an account? <a href="#">Signup</a></p>
+      </div>
+     </form>
+    
+   
+  </body>
 </html>
