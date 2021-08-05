@@ -1,10 +1,16 @@
 body{
     background-color:#eeeeee;
     box-sizing: border-box;
+    background-image: url(image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
 }
 
  #header{
      text-align: center;
+     color: white;
  }
 
  .button{
@@ -69,6 +75,7 @@ body{
      background: white;
      margin: 5px 0 22px 0;
      display: inline-block;
+     border-radius: 10px;
  }
 
  input[type=text]:focus, input[type=password]:focus {
@@ -97,5 +104,11 @@ body{
  }
 
  a{
-     color: limegreen;
+    color:lightgreen;
+    font-weight: 900;
+    text-decoration: none;
+ }
+
+ #rem{
+     color: white;
  }
