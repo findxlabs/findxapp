@@ -47,6 +47,12 @@ input[type=text],input[type=password] {
     width: 50%;
     opacity: 0.9;
     border: none;
+<<<<<<< HEAD
+    background: white;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    margin-left: 2%;
+=======
     border-radius: 10px;
 }
 .Signup:hover {
@@ -61,7 +67,9 @@ input[type=text]:focus, input[type=password]:focus {
     outline: none;
 }
 
-
+.Signup a{
+    text-decoration: none;
+}
 
 
 a{
@@ -75,4 +83,5 @@ a{
 =======
     color: white;
 >>>>>>> 32a1bec8b593fe67e54d2a3c615ba54956fe897a
+>>>>>>> c656bcbf69431209255f75758fcd0c73e59a9956
 }
