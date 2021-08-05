@@ -74,6 +74,7 @@ a:hover {
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
+    color: white;
   } 
   .price .red{
     background-color:red;

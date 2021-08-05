@@ -1,7 +1,6 @@
 body{
     background-color:#eeeeee;
     box-sizing: border-box;
-    box-sizing: border-box;
     background-image: url(image\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,6 +106,7 @@ body{
  a{
     color:lightgreen;
     font-weight: 900;
+    text-decoration: none;
  }
 
  #rem{
