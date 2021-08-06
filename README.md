@@ -1,29 +1,52 @@
 # FindX
 
-#### {Find x is an application meant to recover lost phones through tracking}, {3.2.2021,v1.0}
-#### By { CHARLES MUTHI,ANNANIS KIRWA,VALENTINE OCHIENG,SIMON KAIRU}
-### Design
-https://www.figma.com/file/0m2IAjbHajyiQzheOjtvOk/FindX?node-id=0%3A1
+#### PRE-PREP 21 Group Project
+#### By <a href="https://github.com/Chal13W1zz">Chalie</a>, <a href="https://github.com/Annaliskirwa">Annalis</a>, <a href="https://github.com/valentine-ochieng">Valentino</a>, <a href="https://github.com/simonkairu">Kairu</a>
+
+### Project Design
+Design Url : https://www.figma.com/file/0m2IAjbHajyiQzheOjtvOk/FindX?node-id=0%3A1
+
+### Project Prototype
+Prototype Url : https://www.figma.com/proto/0m2IAjbHajyiQzheOjtvOk/FindX?node-id=1%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1
+
+### Live Release
+Live Demo : https://chal13w1zz.github.io/FindX/
 
 ## Description
-Find x is an application whereby when you install it on your machine it will run as a background application and when someone steals the your phone it will be locked and he will be tempted to enter password ,incorrent password will automatically take a photo send it to your mail,and you will be able to see the location.
+FindX is an android application that once installed, runs as an invisible background service that can't be uninstalled by a normal user.If a thief steals the phone, it get's locked with a preset password and if an incorrent password is entered, the app automatically takes the thiefs photo and sends it to your mail, the photo is accompanied with the devices location and a log of all the activities being performed at that specific instance. When in panic mode, if the thief attempts shutting the phone off, the app creates a fake shutdown and activates location and turns on data in the background and with that, the phone can be easily tracked.
+Later versions of the app will be able to survive a factory reset.
+
 ## Setup/Installation Requirements
-* Download the app from playstore
-* The website works best in google chrome
-* its easy to navigate 
-* 
-## Known Bugs
-*The website is not responsive
-*works best in google chrome
+* Android 4+ , modern versions require special permisions to work effectively
+* Download the app from our official website
+* Installation and setup instructions are hardcoded in the application
+* once setup is complete, the app runs as a service and can only be managed remotely using your account in our website or via sms
+* altenative control instructions are emailed to the users on setup
+
+## Contributions
+If you'd like to contribute.
+- Fork the repo
+- Create a new branch (git checkout -b feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -am 'Improve/Add feature')
+- Push to the branch (git push origin feature)
+- Create a Pull Request
+[Make sure your code is properly commented]
+If you find a bug, kindly open an issue <a href="https://github.com/Chal13W1zz/FindX/issues/new">Here</a> .
+If you'd like to request a new function, feel free to do so by opening an issue <a href="https://github.com/Chal13W1zz/FindX/issues/new">Here</a>.
+
 ## Technologies Used
-Currently the website only uses html and css but in it is still under developement and in the near future javascript and php will be included
-## Support and contact details
-Incase of any support email us @  	
-charles.muthii@student.moringaschool.com 	
-valentine.ochieng@student.moringaschool.com
-annalis.kirwa@student.moringaschool.com
-simon.mureithi@student.moringaschool.com       
+
+Github only supports static pages and at the moment, the mvp uses pure html, css and some javascript. The Android prototype is made using java.
+The production model will use kotlin for the android app, ruby on rails for the api and the backend and react for the frontend.
+
+## Connect With Us
+
+<a href="mailto:charles.muthii@student.moringaschool.com, valentine.ochieng@student.moringaschool.com, annalis.kirwa@student.moringaschool.com, simon.mureithi@student.moringaschool.com">Email Us</a>
+
+     
 ### License
-MIT License
-Copyright (c) 2021-2022 Charlie Wizz and the others.
-  
+## <a href="https://github.com/Chal13W1zz/FindX/blob/main/LICENSE">Licence</a>
+Copyright © 2021 FindX Group
+ 
