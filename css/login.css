@@ -56,12 +56,6 @@ body{
 
  }
 
- .top{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
- }
-
  .container{
      
      margin-left: 460px;
