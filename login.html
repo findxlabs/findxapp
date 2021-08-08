@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login page</title>
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
    
 
@@ -18,13 +19,8 @@
    
    
    
-   
-     <div class="top">
-                                       <button class="button">Login</button>
-                                       <button class="sign">Signup</button>
-            
-      
-        </div>
+        
+    
                    
                   
     </div>     
@@ -34,6 +30,9 @@
                    <form action="login form">
                        <div class="container">
 
+                        <label for="username"></label>
+                        <input type="text" placeholder="Username" name="username" id="username" required> 
+
 
                            <label for="email"></label>
                            <input type="text" placeholder="Enter Email" name="email" id="email" required> 
@@ -42,13 +41,13 @@
                            <input type="text" placeholder="Enter Password" name="Password" id="password" required>
 
 
-                           <p>   <span><i class="far fa-square"></i></span>     Remember me</p>
+                           <p id="rem">   <span><i class="far fa-square"></i></span>     Remember me</p>
                            <p> <a href="#">Forgot Username/Password?</a> </p>
-                           <button type="submit" class="Login">Login</button>
+                           <button type="submit" class="Login">  <a href="profile.html"> Login</a></button>
 
                        </div>
                        <div class="signup">
-                           <p>Not a member? <a href="#">Signup</a>.</p>
+                           <p>Not a member? <a href="signup.html">Signup</a>.</p>
                        </div>
                    
 

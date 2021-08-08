@@ -5,6 +5,13 @@ body {
     margin: 0;
     background-color: #EEEEEE;
     font-size: 22px;
+      background-image: url(image\ 1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      box-sizing: border-box;
+  
+  
   }
   .logo {
     text-align: center;
@@ -83,4 +90,7 @@ h2 {
   padding-left: 8%;
   height: 40px;
   width: 50px;
+}
+p{
+  color: white;
 }

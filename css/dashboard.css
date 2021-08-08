@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,8 +10,15 @@
     list-style: none;
 
 }
-#dash, .button, .cancel{
+.button{
     background-color: #808080;
+    border-radius: 10px;
+    border-color: green;
+}
+ .cancel{
+    background-color: #808080;
+    border-radius: 10px;
+    border-color: red;
 }
 #dash li{
     width: 300px;
@@ -54,5 +63,5 @@ h1{
     position: absolute;
     margin: 0px;
     padding: 0px;
-    left:1150px;
+    left:1230px;
 }

@@ -134,4 +134,7 @@ background-color: green;
   flex-direction: row-reverse;
   padding: 10px;
 }
-      
+#one{
+  margin-right: 10px;
+  
+}

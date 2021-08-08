@@ -1,18 +1,39 @@
-*{
+body{
+    background-image: url(image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    box-sizing: border-box;
+}
+ 
+ .contact{
+     margin-top: 2%;
+ }
+ 
+ 
+ 
+ *{
     font-family:courier,arial,helvetica;
 }
 
 h1 {
-    border: solid red;
-    background-color:red;
+   
     margin-top: 0;
     padding-top: 0;
     text-align: center;
 }
 
+#cont{
+    color: white;
+    
+}
+
 .homeIcon {
     float: right;
-    padding-right: 20px;
+    border: white;
+    background-color: grey;
+    margin-right: 3.5%;
+    
 }
 
 .contact p {
