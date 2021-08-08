@@ -1,0 +1,55 @@
+*{
+    font-family:courier,arial,helvetica;
+}
+
+h1 {
+    border: solid red;
+    background-color:red;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.homeIcon {
+    float: right;
+    padding-right: 20px;
+}
+
+.contact p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sales {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 30%;
+    background-color: #C4C4C4;
+}
+
+.helpnSupport {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 30%;
+    background-color: #C4C4C4;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 30%;
+    background-color: #C4C4C4;
+}
+
+.sales img {
+    display: flex;
+    border: yellowgreen;
+}
