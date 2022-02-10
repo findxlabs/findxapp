@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+<svg width="50" height="38" viewBox="0 0 80 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M32 68V44H48V68H68V36H80L40 0L0 36H12V68H32Z" fill="black"/>
+=======
+<svg width="40" height="34" viewBox="0 0 40 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 34V22H24V34H34V18H40L20 0L0 18H6V34H16Z" fill="black"/>
+>>>>>>> b5c4f45e5e36425cfec1753d4c44f6c6f5b9a3ce
+</svg>
