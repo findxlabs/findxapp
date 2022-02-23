@@ -9,13 +9,13 @@ Later versions of the app will be able to survive a factory reset.
 </h3>
 
 ### Project Design
-Website Design : <a href="https://www.figma.com/file/0m2IAjbHajyiQzheOjtvOk/FindX?node-id=0%3A1">View Here</a>
+Website Design : <a href="https://www.figma.com/file/0m2IAjbHajyiQzheOjtvOk/FindX?node-id=0%3A1">Coming Soon</a>
 
 ### Project Prototype
-Prototype Url :  <a href="https://www.figma.com/proto/0m2IAjbHajyiQzheOjtvOk/FindX?node-id=1%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1">View here</a>
+Prototype Url :  <a href="https://www.figma.com/proto/0m2IAjbHajyiQzheOjtvOk/FindX?node-id=1%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1">Coming Soon</a>
 
 ### Live Release
-Site Demo : <a href="https://chal13w1zz.github.io/FindX/">View Here</a>
+Site Demo : <a href="https://chal13w1zz.github.io/FindX/">Coming Soon</a>
 </br>
 Android app : <a href="https://github.com/Chal13W1zz/FindX/tree/main/findx-app">View Here</a>
 
