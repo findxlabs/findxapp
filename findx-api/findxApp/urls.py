@@ -8,5 +8,6 @@ router = routers.DefaultRouter()
 
 urlpatterns = [
     path('', include(router.urls)),
+    # path('account/register', views.UserCreate.as_view())
 
 ]
