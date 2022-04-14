@@ -34,3 +34,4 @@ urlpatterns = [
 router = DefaultRouter()
 router.register('user', UserViewSet, basename='user')
 urlpatterns += router.urls
+# router urls
