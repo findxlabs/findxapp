@@ -15,8 +15,8 @@ export default function Init() {
         }
     });
 
-    // Store the private key securely (you can use a secure storage mechanism)
-    // For example, you can use environment variables, secure vaults, or databases.
+    // Store the private key securely (using environment variable as an example)
+    process.env.PRIVATE_KEY = privateKey;
 
     // Generate random UUID
     const appInitSignature = uuidv4();
