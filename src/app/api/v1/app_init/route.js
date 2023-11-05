@@ -2,7 +2,7 @@
 const crypto = require('crypto');
 const { v4: uuidv4 } = require('uuid');
 
-export default function Init() {
+export async function GET(request) {
     // Generate RSA key pair
     const { publicKey, privateKey } = crypto.generateKeyPairSync('rsa', {
         modulusLength: 2048,
@@ -56,5 +56,5 @@ export default function Init() {
         succeeded: true
     };
 
-    return <pre>{JSON.stringify(jsonData, null, 2)}</pre>;
+    return Response.json(jsonData);
 }
