@@ -10,9 +10,12 @@ export async function POST(req) {
     const paymentIntent = await stripe.paymentIntents.create({
       amount: Number(amount) * 100,
       currency: "USD",
+      payment_method_types: ['card'],
+      setup_future_usage: 'off_session',
+      statement_descriptor: 'FindX Subscription',
     });
 
-    return new NextResponse(paymentIntent.client_secret, { status: 200 });
+    return new NextResponse(paymentIntent, { status: 200 });
   } catch (error) {
     return new NextResponse(error, {
       status: 400,
