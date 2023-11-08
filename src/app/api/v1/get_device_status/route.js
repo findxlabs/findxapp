@@ -34,19 +34,17 @@ export async function POST(req) {
     }
 
     // Define your payload
-    const payload = {
+    const message = {
       data: {
-        fact: 'The fastest ant in the world is the Saharan silver ant',
-        speed: 'Almost a meter per second',
-        equivalent: 'A house cat running at 120 mph',
-        username: username,
-        apikey: apikey,
+        command: 'DEVICE_STATUS',
       },
+      token: deviceid,
     };
+
 
     // Send a message to the device corresponding to the provided device ID
     try {
-      const response = await admin.messaging().send({ token: deviceid, ...payload });
+      const response = await admin.messaging().send(message);
       console.log('Successfully sent message:', response);
       return NextResponse.json({ status: 'Message sent successfully' });
     } catch (error) {
