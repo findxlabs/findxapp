@@ -39,7 +39,7 @@ export async function POST(req) {
     ];
 
     if (!validCommands.includes(command)) {
-      return NextResponse.rewrite('/400').json({ status: 'error', message: 'Invalid command' });
+      return NextResponse.json({ status: 'error', message: 'Invalid command' });
     }
 
 
